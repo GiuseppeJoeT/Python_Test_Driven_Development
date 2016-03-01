@@ -11,3 +11,6 @@ def give_change(nAmount):
             nAmount -= nCoin
             lChange.append(nCoin)
     return lChange
+
+# We iterate through the coins, seeing if the coin is less than or
+# equal to the amount.
